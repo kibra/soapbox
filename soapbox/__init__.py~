@@ -1,0 +1,17 @@
+from pyramid.config import Configurator
+from pyramid.authentication import AuthTktAuthenticationPolicy
+from soapbox.resources import Root
+#comment
+def main(global_config, **settings):
+    """ This function returns a Pyramid WSGI application.
+    """
+    authentication_policy = AuthTktAuthenticationPolicy('seekrit')
+    config = Configurator(root_factory=Root, settings=settings, authentication_policy=authentication_policy)
+    config.include('pyramid_handlers')
+    config.add_handler('home', '/', handler='soapbox.handlers.Home', action='index')
+    config.add_handler('messages', '/messages/{action}', handler='soapbox.handlers.Messages')
+    config.add_handler('profile_index', '/profile', handler='soapbox.handlers.Profile', action='index')
+    config.add_handler('profile', '/profile/{action}', handler='soapbox.handlers.Profile')
+    config.add_handler('auth', '/auth/{action}', handler='soapbox.handlers.Auth')
+    config.add_static_view('static', 'soapbox:static')
+    return config.make_wsgi_app()

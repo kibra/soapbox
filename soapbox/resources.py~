@@ -1,0 +1,27 @@
+from mongoengine import *
+import datetime
+
+connect('soapboxdb')
+
+class Root(object):
+    def __init__(self, request):
+        self.request = request
+
+class Tag(Document):
+    label = StringField(required=True)
+    tagType = StringField(required=True)
+
+class User(Document):
+    email = StringField(required=True, unique=True)
+    password = StringField(required=True)
+    personal_tag = ReferenceField(Tag, required=True)
+    first_name = StringField()
+    last_name = StringField()
+    salt = StringField(required=True)
+    date_created = DateTimeField(default=datetime.datetime.utcnow)
+
+class Message(Document):
+    body = StringField(required=True)
+    tags = ListField(ReferenceField(Tag))
+    author = ReferenceField(User)
+

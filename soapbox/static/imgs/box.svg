@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   width="199.21703"
+   height="227.07532"
+   id="svg2"
+   inkscape:version="0.48.0 r9654"
+   sodipodi:docname="drawing.svg">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1680"
+     inkscape:window-height="1021"
+     id="namedview3032"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="1.5534869"
+     inkscape:cx="200.15908"
+     inkscape:cy="77.739393"
+     inkscape:window-x="1280"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient5611">
+      <stop
+         id="stop5613"
+         style="stop-color:#3da128;stop-opacity:1"
+         offset="0" />
+    </linearGradient>
+    <clipPath
+       id="clipPath1642">
+      <path
+         d="M 0,768 1024,768 1024,0 0,0 0,768 z"
+         id="path1644"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       id="clipPath1584">
+      <path
+         d="M 0,768 1024,768 1024,0 0,0 0,768 z"
+         id="path1586"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       id="clipPath470">
+      <path
+         d="M 0,768 1024,768 1024,0 0,0 0,768 z"
+         id="path472"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       id="clipPath528">
+      <path
+         d="M 0,768 1024,768 1024,0 0,0 0,768 z"
+         id="path530"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       id="clipPath424">
+      <path
+         d="m 741.073,765.806 -12.406,-7.164 c -0.154,-0.09 -0.25,-0.254 -0.25,-0.433 l 0,0 0,-14.324 c 0,-0.179 0.096,-0.344 0.25,-0.434 l 0,0 12.406,-7.163 c 0.077,-0.044 0.164,-0.066 0.25,-0.066 l 0,0 c 0.086,0 0.173,0.022 0.25,0.066 l 0,0 12.406,7.163 c 0.154,0.09 0.251,0.255 0.251,0.434 l 0,0 0,14.324 c 0,0.179 -0.097,0.343 -0.251,0.433 l 0,0 -12.406,7.164 c -0.077,0.044 -0.164,0.067 -0.25,0.067 l 0,0 c -0.086,0 -0.173,-0.023 -0.25,-0.067"
+         id="path426"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <mask
+       id="mask442">
+      <g
+         id="g444">
+        <g
+           clip-path="url(#clipPath432)"
+           id="g446">
+          <g
+             id="g448">
+            <g
+               id="g450">
+              <path
+                 d="m -32767,32767 65534,0 0,-65534 -65534,0 0,65534 z"
+                 id="path452"
+                 style="fill:url(#radialGradient436);stroke:none"
+                 inkscape:connector-curvature="0" />
+            </g>
+          </g>
+        </g>
+      </g>
+    </mask>
+    <clipPath
+       id="clipPath432">
+      <path
+         d="m -32767,32767 65534,0 0,-65534 -65534,0 0,65534 z"
+         id="path434"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <radialGradient
+       cx="0"
+       cy="0"
+       r="1"
+       fx="0"
+       fy="0"
+       id="radialGradient436"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(13.899139,0,0,-13.899139,741.32324,751.04736)"
+       spreadMethod="pad">
+      <stop
+         id="stop438"
+         style="stop-color:#ffb000;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop440"
+         style="stop-color:#f3c500;stop-opacity:0"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       cx="0"
+       cy="0"
+       r="1"
+       fx="0"
+       fy="0"
+       id="radialGradient458"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(13.899139,0,0,-13.899139,741.32324,751.04736)"
+       spreadMethod="pad">
+      <stop
+         id="stop460"
+         style="stop-color:#c29c44;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop462"
+         style="stop-color:#9badbc;stop-opacity:1"
+         offset="1" />
+    </radialGradient>
+    <clipPath
+       id="clipPath528-3">
+      <path
+         d="M 0,768 1024,768 1024,0 0,0 0,768 z"
+         id="path530-8"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       id="clipPath470-0">
+      <path
+         d="M 0,768 1024,768 1024,0 0,0 0,768 z"
+         id="path472-5"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <radialGradient
+       cx="741.32349"
+       cy="751.04749"
+       r="12.9065"
+       fx="741.32349"
+       fy="751.04749"
+       id="radialGradient4135"
+       xlink:href="#radialGradient436"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,1.1486848,0,-111.66933)" />
+    <radialGradient
+       cx="536.78571"
+       cy="515.39789"
+       r="14.375"
+       fx="536.78571"
+       fy="515.39789"
+       id="radialGradient5651"
+       xlink:href="#radialGradient436"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.98136643,0,9.603702)" />
+    <radialGradient
+       cx="536.78571"
+       cy="515.39789"
+       r="14.375"
+       fx="536.78571"
+       fy="515.39789"
+       id="radialGradient5702"
+       xlink:href="#radialGradient436"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.98136643,0,9.603702)" />
+  </defs>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     transform="translate(-193.87654,-340.52696)">
+    <g
+       transform="matrix(5.9441155,0,0,5.9264436,-3118.5434,-2643.8075)"
+       id="g5691">
+      <g
+         transform="matrix(1.25,0,0,-1.25,-352.63614,1461.5287)"
+         id="g466-6"
+         style="fill:#794d66;fill-opacity:0.09311739;stroke:none">
+        <g
+           clip-path="url(#clipPath470-0)"
+           id="g468-6"
+           style="fill:#794d66;fill-opacity:0.09311739;stroke:none">
+          <g
+             transform="translate(741.3232,766.373)"
+             id="g474-4"
+             style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1">
+            <path
+               d="m 0,0 c -0.173,0 -0.346,-0.044 -0.5,-0.134 l -12.406,-7.164 c -0.31,-0.179 -0.5,-0.509 -0.5,-0.866 l 0,-14.324 c 0,-0.358 0.19,-0.688 0.5,-0.866 L -0.5,-30.518 c 0.154,-0.089 0.327,-0.133 0.5,-0.133 0.173,0 0.346,0.044 0.5,0.133 l 12.406,7.164 c 0.31,0.178 0.5,0.508 0.5,0.866 l 0,14.324 c 0,0.357 -0.19,0.687 -0.5,0.866 L 0.5,-0.134 C 0.346,-0.044 0.173,0 0,0 m 0,-1 12.406,-7.164 0,-14.324 L 0,-29.651 l -12.406,7.163 0,14.324 L 0,-1"
+               id="path476-0"
+               style="fill:#000000;fill-opacity:1;stroke:none"
+               inkscape:connector-curvature="0" />
+          </g>
+        </g>
+        <path
+           d="m 551.16071,515.39789 a 14.375,14.107142 0 1 1 -28.75,0 14.375,14.107142 0 1 1 28.75,0 z"
+           transform="matrix(0.8,0,0,0.8,311.89462,339.08638)"
+           id="path5643"
+           style="fill:url(#radialGradient5702);fill-opacity:1;stroke:none"
+           inkscape:connector-curvature="0" />
+      </g>
+      <g
+         transform="matrix(1.25,0,0,-1.25,-352.63618,1461.5287)"
+         id="g524-0"
+         style="fill:#000000;stroke:none">
+        <g
+           clip-path="url(#clipPath528-3)"
+           id="g526-4"
+           style="fill:#000000;stroke:none">
+          <g
+             transform="translate(753.7295,758.209)"
+             id="g532-6"
+             style="fill:#000000;fill-opacity:1;stroke:none">
+            <path
+               d="M 0,0 -12.406,-7.16 M -24.813,0 -12.406,-7.16 m 0,-14.327 0,14.327"
+               id="path534-2"
+               style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none"
+               inkscape:connector-curvature="0" />
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

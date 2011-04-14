@@ -1,0 +1,481 @@
+body {
+margin-right:auto;
+margin-left:auto;
+margin-top:0px;
+padding:0px;
+background:black;
+font-family:arial,sans-serif;
+font-size:100%;
+width:1200px;
+color:black;
+}
+
+#main {
+width:1180px;
+margin-right:auto;
+margin-left:auto;
+padding:0px;
+}
+
+#header {
+width:1130px;
+height:30px;
+background-color:#A2A2A3;
+border-style:solid;
+border-bottom-width:4px;
+border-right-width:4px;
+border-top-width:0px;
+border-left-width:0px;
+border-color:#8A8A8B;
+margin-bottom:20px;
+}
+
+#logo {
+width:223px;
+padding:2px;
+}
+
+#logo_img {
+float:left;
+width:200px;
+height:24px;
+}
+
+#loginbar {
+width:500px;
+height:22px;
+margin-right:5px;
+margin-left:auto;
+}
+
+#login-left 
+{
+float:right;
+}
+
+#login {
+height:21px;
+float:right;
+text-align:right;
+font-size:90%;
+padding-right:10px;
+padding-left:5px;
+padding-top:3px;
+min-width:300px;
+overflow:auto;
+
+}
+
+#floatdiv {
+width:1130px;
+position:absolute;
+margin-top:15px;
+}
+
+#nav {
+height:600px;
+float:left;
+position:relative;
+top:32px;
+left:2px;
+
+}
+
+.navtab {
+height:30px;
+width:28px;
+cursor:pointer;
+}
+
+a {cursor:pointer;
+cursor:hand;}
+
+#puboxTab {position:relative;top:-40px;}
+#boxedTab {position:relative;top:-70px;}
+#tagsTab {position:relative;top:-100px;}
+#sentTab {position:relative;top:-140px;}
+
+.innerTab {
+background-color:#A2A2A3;
+border-style:solid;
+border-bottom-width:0px;
+border-right-width:0px;
+border-top-width:0px;
+border-left-width:4px;
+border-color:#8A8A8B;
+width:24px;
+height:70px;}
+
+ul {list-style-type:none;}
+
+#content {
+background-color:#87847F;
+width:830px;
+float:left;
+min-height:1100px;
+padding:20px;
+}
+
+#seeMore {font-style:bold;clear:both;position:relative;top:-20px;left:50px;}
+
+#postButton {
+float:right;
+background-color:#8A8A8B;
+border-style:solid;
+border-width:4px;
+border-color:gray;
+padding:3px;
+font-style:bold;
+position:relative;
+top:-10px;
+right:30px;
+width:150px;
+text-align:center;
+font-weight:bold;
+}
+
+.fullMessage {
+background-color:white;
+padding:10px;
+}
+
+#register_iframe 
+{
+margin-right:auto;
+margin-left:auto;
+padding:0px;
+position:relative;
+}
+
+#registerFrame
+{	position:relative;
+top:-20px;
+left:-20px;
+background-color:#87847F;
+width:830px;
+float:left;
+height:1000px;
+padding:30px;
+border-style:none;
+}
+
+table { empty-cells:show;
+border-collapse:collapse; }
+
+tr {height:50px;}
+
+#about {padding:0 20px;}
+#privacy {padding:0 20px;}
+
+
+/* MY INBOX ------------------------------------------------------------------- */
+#msgContainer {
+width:100%;
+border-color:#8A8A8B;
+border-style:solid;
+border-width:3px;
+}
+
+.msgBox {
+width:100%;
+height:63px;
+}
+
+.msgBoxSingle {
+width:100%;
+}
+
+
+.uparrow {}
+.numofvotes {font-weight:bold;position:relative;top:-8px;}
+.downarrow {position:relative;top:-12px;}
+
+
+.msgColor0 {
+background-color:#c3ceda;
+background-image: -moz-linear-gradient(top, #c3ceda,  #8A919A);
+background-image: -webkit-gradient(linear, left top, left bottom, from(#c3ceda), to(#8A919A));
+}
+
+.msgColor1 {
+background-color:#8EA8CF;
+background-image: -moz-linear-gradient(top,  #8EA8CF,  #60656B);
+background-image: -webkit-gradient(linear, left top, left bottom, from(#8EA8CF), to(#60656B));
+}
+
+tr {overflow:auto;}
+
+.votes {width:80px;float:left;height:60px;}
+.msgSpace {padding-right:6px;padding-left:6px;width:590px;float:left;padding-top:4px;font-weight:bold;font-size:100%;}
+.msgSpaceRead {width:600px;float:left;padding-top:4px;font-size:100%;}
+.saveBox {width:45px;float:left;padding-top:7px;}
+.spamButton {width:55px;float:right;padding-right:15px;padding-top:20px;}
+
+.replyBody {width:700px;padding:20px;background-color:white;margin:5px;}
+
+/* SIDEBAR ------------------------------------------------------------------- */
+#sidebar {
+width:230px;
+text-align:center;
+float:right;
+padding-top:40px;
+}
+
+.widget {
+margin-right:auto;
+margin-left:auto;
+width:200px;
+background-color:#A2A2A3;
+margin-bottom:20px;
+border-style:solid;
+border-width:4px;
+border-color:#8A8A8B;
+padding-top:10px;
+}
+
+.widget_header_container {
+height:28px;width:200px;
+}
+
+.widget_header {
+background-color:#A2A2A3;
+height:21px;
+font-weight:bold;
+margin-right:auto;
+margin-left:auto;
+padding-top:3px;
+font-size:110%;
+width:150px;
+position:relative;left:40px;
+}
+
+#tags {
+height:200px;
+padding:5px;
+overflow:none;
+}
+
+#loginForm {height:200px;}
+
+#public_tag_bucket_container {height:200px;border:solid 4px #8A8A8B;width:800px;background-color:white;padding:10px;}
+#my_tag_bucket_container {height:200px;width:800px;background-color:white;padding:10px;}
+
+#send_tags_container {height:24px;width:800px;background-color:white;padding:10px;}
+#sendable_tags_container {height:200px;width:800px;background-color:white;padding:10px;}
+
+.public_tag_holder {float:left;margin:5px;background-color:#8A8A8B;}
+
+.public_tag {
+float:left;
+padding:6px;
+background-color:lightblue;
+margin:5px;
+}
+.allpublic_tag {
+float:left;
+padding:6px;
+background-color:red;
+margin:5px;
+}
+
+
+
+.public_tag_in_widget {
+float:left;
+padding:6px;
+background-color:lightblue;
+font-size:100%;
+}
+
+.private_tag {
+width:82px;
+height:25px;
+float:left;
+padding-top:7px;
+background-color:lightblue;
+border-style:solid;
+border-width:3px;
+border-color:black;
+margin:5px;
+font-size:110%;
+}
+
+.personal_tag {
+float:left;
+padding:6px;
+background-color:blue;
+}
+
+.added {background-color:gray;}
+
+.tag_in_bin {margin:5px;}
+.tag_in_bin_holder {width:700px;}
+#tagBinTitle {position:relative;top:10px;}
+
+.login_widget_element {padding-top:5px;}
+
+#login_widget {
+padding-left:10px;
+padding-right:10px;
+position:relative;
+top:10px;
+}
+
+#boxes {
+height:200px;
+}
+
+#ads {
+height:400px;
+}
+
+#registerPageCopy {width:600px;padding-left:20px;padding-right:20px;}
+
+/* FOOTER ------------------------------------------------------------------- */
+#footer {
+width:400px;
+clear:both;
+text-align:center;
+padding:15px;
+font-size:75%;
+margin-right:auto;margin-left:auto;
+color:gray;
+}
+
+p.vertical {
+-webkit-transform:rotate(270deg);
+-moz-transform:rotate(270deg);
+-o-transform: rotate(270deg);
+-ms-writing-mode: bt-rl;
+font-weight:bold;
+font-size:110%;
+position:relative;
+top:15px;
+}
+
+html, body {
+height: 100%; /* Damn you IE! */
+}
+
+
+
+a:link {color:black;text-decoration:underline;}      /* unvisited link */
+a:visited {color:black;text-decoration:underline;}  /* visited link */
+a:hover {color:white;text-decoration:underline;}  /* mouse over link */
+a:active {color:white;text-decoration:underline;}  /* selected link */
+
+#footer a:link {color:gray;text-decoration:underline;}  
+#footer a:visited {color:gray;text-decoration:underline;}
+
+/*
+	HUMANIZED MESSAGES 1.0
+	idea - http://www.humanized.com/weblog/2006/09/11/monolog_boxes_and_transparent_messages
+	home - http://humanmsg.googlecode.com
+*/
+
+html, body {
+	height: 100%; /* Damn you IE! */
+}
+
+.humanMsg {
+	font: normal 20px/50px Helvetica, Arial, Sans-Serif;
+	letter-spacing: -1px;
+	position: fixed;
+	top: 130px;
+	left: 25%;
+	width: 50%;
+	color: white;
+	background-color: black;
+	text-align: center; 
+	display: none;
+	opacity: 0;
+	z-index: 100000;
+}
+
+.humanMsg .round {
+    border-left: solid 2px white;
+	border-right: solid 2px white;
+    font-size: 1px; height: 2px;
+	}
+
+.humanMsg p {
+	padding: .3em;
+	display: inline; 
+	}
+
+.humanMsg a {
+	display: none;
+	}
+	
+#humanMsgLog {
+	font: normal 10px Helvetica, Arial, Sans-Serif;
+	color: white;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	max-height: 200px;
+	display: none;
+	z-index: 10000;
+	}
+
+#humanMsgLog p {
+	position: relative;
+	left: 50%;
+	width: 200px;
+	margin: 0;
+	margin-left: -100px;
+	padding: 0 10px;
+	line-height: 20px;
+	background: #333;
+	text-align: center;
+	white-space: pre;
+	cursor: pointer;
+	}
+
+#humanMsgLog p:hover {
+	background: #222;
+	}
+
+#humanMsgLog ul {
+	background: #eee url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAARCAIAAACaSvE/AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAE1JREFUeNqEjVEKACAIQ516Ee//5wVNCjIjaB/iY5vC3YkoIgDkVDOjQ5pqLCI3r2bLFzNzyydvM4uKqfJPKN4vyl9LO/7o3/6PhwADAIWkFPjc5eRrAAAAAElFTkSuQmCC) repeat-x;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	max-height: 180px;
+	overflow: auto;
+	display: none;
+	}
+
+#humanMsgLog ul li {
+	color: #555;
+	font-size: 12px;
+	list-style-type: none;
+	border-bottom: 1px solid #ddd;
+	line-height: 40px;
+	display: none;
+	padding: 0 20px;
+	position: relative;
+	overflow: hidden;
+	white-space: pre;
+	}
+
+#humanMsgLog ul li:hover {
+	background: #f2f2f2;
+	}
+
+#humanMsgLog ul li:first-child {
+	margin-top: 1px;
+	}
+	
+#humanMsgLog ul li .error {
+	color: orangered;
+	}
+
+#humanMsgLog ul li .indent {
+	position: absolute;
+	top: 0;
+	left: 100px;
+	margin-right: 200px;
+	height: inherit;
+	}

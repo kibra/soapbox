@@ -1,0 +1,6 @@
+pyramid
+WebError
+pyramid_handlers
+formencode
+pyramid_simpleform
+mongoengine
